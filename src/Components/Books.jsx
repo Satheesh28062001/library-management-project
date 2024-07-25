@@ -44,14 +44,7 @@ const Books = () => {
             }
           
         }
-        let addcart=(id,title,authors,thumbnailUrl)=>{
-          let cartobj={
-              cardid:id,
-              carttitle:title,
-              cartauthor:[authors],
-              cartimage:thumbnailUrl,
-
-          }
+       
           let duplicate=id.includes(id)
           if(duplicate){
               alert(`${title} already add to cart`)
