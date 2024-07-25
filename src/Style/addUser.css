@@ -1,0 +1,54 @@
+*{padding: 0px;margin: 0px;}
+.addusers{
+   height: 100vh;
+    background: url(../Images/library\ bg4.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+
+
+.addusers form{
+    display: block;
+    width: 50vh;
+    border: solid 1px #000000;
+    margin:20px auto;
+    background: url(../Images/library\ bg2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+.addusers form input,.add-btn{
+    display: block;
+    margin: 40px auto;
+    padding: 0px 10px;
+   
+    
+
+    
+}
+.addusers form input{
+    height: 5vh;
+    width: 40vh;
+   background-color: rgba(89, 91, 77, 0.449);
+   color: white;
+  border:none;
+  border-radius: 10px;
+  
+}
+.addusers form .add-btn{
+    height: 4vh;
+    box-shadow: inset 0px 0px 30px yellowgreen;
+    border-radius: 10px;
+    border: none;
+}
+.addusers form .add-btn:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-color: rgb(12, 185, 98);
+}
+

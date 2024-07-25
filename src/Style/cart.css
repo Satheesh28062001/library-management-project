@@ -1,0 +1,66 @@
+.carddata .header{
+    margin: auto;
+    text-align: center;
+    height: 10vh;
+    background: linear-gradient(#ffffff,yellow);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.carddata table{
+    margin: 30px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+   
+    
+}
+.carddata table thead tr th{
+    text-align: center;
+    padding: 10px;
+    color: red;
+    background: linear-gradient(grey,white);
+    
+}
+.carddata table tbody tr td{
+    padding: 5px;
+    background: linear-gradient(rgb(56, 172, 116),rgb(194, 194, 131));
+    font-weight: bold;
+    
+   
+}
+.carddata table tbody tr td button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+.carddata table tbody tr td img{
+    height: 15vh;
+    width: 12vh;
+    border: solid 3px rgb(185, 162, 12);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+.carddata .viewcart{
+    background-color: white;
+    color: rgb(4, 55, 16);
+}
+.carddata .removecart{
+    background-color: white;
+    color: red;
+    
+}
+.carddata .viewcart:hover{
+    cursor: pointer;
+   
+  background-color: rgb(12, 195, 82) ;
+  color: black;
+  transform: scale(1.1);
+}
+.carddata .removecart:hover{
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    transform: scale(1.1);
+
+}

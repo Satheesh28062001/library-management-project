@@ -1,0 +1,90 @@
+.landingpage{
+    height: 100vh;
+    max-width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.377)),url('../Images/background\ library.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.landingpage .logBox{
+    border: 2px solid gray;
+    height: 60vh;
+    width: 35%;
+    margin:5% 60%;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+.landingpage .btn-box{
+    border: 2px solid gray;
+    width: 50%;
+    height: 40px;
+    margin:3% auto;
+    border-radius: 20px;
+}
+.landingpage .btn-box button {
+    height: 100%;
+    width: 50%;
+
+    transition: all ease-in-out .2s;
+    border-radius: 20px;
+    border: none;
+    transition: all 1.5s ease-in-out;
+    
+}
+.landingpage .admin{
+    margin-right: 50%;
+}
+.landingpage .user{
+    margin-left: 50%;
+}
+.landingpage .header{
+    text-align: center;
+    font-size: 2rem;
+    color:aqua;
+}
+.landingpage form{
+    border: solid 1px black;
+    height: 30vh;
+    width: 80%;
+    margin:20px auto;
+    background-color: rgba(0, 255, 255, 0.337);
+    border-radius: 10px;
+}
+.landingpage form>input{
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    height: 4vh;
+    border: none;
+    padding: 5px;
+    background-color: rgba(255, 255, 0, 0.397);
+    color: white;
+    
+
+}
+.landingpage form>button{
+    display: block;
+    margin: 30px auto;
+    height: 5vh;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0px 0px 20px violet;
+    
+}
+.landingpage form>input::placeholder{
+    color: white;
+    
+   
+   
+}
+.landingpage form>button:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+
+

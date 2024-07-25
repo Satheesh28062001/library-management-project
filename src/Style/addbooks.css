@@ -1,0 +1,59 @@
+*{padding: 0px;margin: 0px;}
+.addbooks{
+    height: 100vh;
+    background: url(../Images/library\ bg3.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+   
+}
+.addbooks form{
+    border: solid 1px black;
+    height: 90vh;
+    width: 90vh;
+    margin:10px auto;
+    background:url(../Images/library\ bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top:10px
+
+}
+.addbooks input,.add-btn{
+    display: block;
+    margin:20px auto;
+    padding: 0px 5px;
+}
+.addbooks input{
+    height: 5vh;
+    width: 50vh;
+    background-color: rgba(27, 147, 147, 0);
+    border-radius: 10px;
+   
+   border: 0px 0px 2px 0px;
+    
+
+}
+.addbooks input::placeholder{
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: bolder;
+}
+.addbooks .add-btn{
+    height: 5vh;
+    width: 20vh;
+    border: none;
+   box-shadow: inset 0px 0px 20px rgb(8, 8, 8);
+    border-radius: 10px;
+    cursor: pointer;
+ 
+}
+.addbooks .add-btn:hover{
+    background-color: rgb(66, 145, 101);
+    color: white;
+}

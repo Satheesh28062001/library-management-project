@@ -1,0 +1,118 @@
+.books{
+    
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(white,yellow);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    
+   
+
+}
+.books .container{
+    border: none;
+    height: 40vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px auto;
+    box-shadow: 10px 10px 5px rgba(255, 255, 27, 0.466);
+   
+    
+    
+    
+
+}
+.books .container .img-side{
+    border: none;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.books .container .content-side{
+    border: none;
+    height: 100%;
+    width: 60%;
+    text-align: justify;
+    background: linear-gradient(yellow,white);
+    position: relative;
+    
+    
+
+}
+.books .container .img-side img{
+    height: 200px;
+    width: 125px;
+   
+
+}
+.books .container .content-side div{
+    font-size: small;
+    margin-left:10px;
+    margin-top: 10px ;
+    
+}
+.books .container .content-side div b{
+    
+    font-weight: bolder;
+    color: brown;
+    
+}
+.books .container .content-side h4{
+    text-align: center;
+    color: rgb(241, 25, 25);
+    font-weight: bolder;
+   
+}
+.books .container .btn button{
+    height: 4vh;
+    width: 12vh;
+    padding: 0px 3px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+.books .container .btn .read{
+    border: solid 1px green;
+    box-shadow: 0 0 10px green;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    
+    
+
+}
+.books .container .btn .delete{
+    border: solid 1px red;
+    box-shadow: 0 0 10px red;
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    
+}
+.books .container .btn .read:hover{
+    transform: scale(1.1);
+    background-color: rgb(18, 110, 18);
+    cursor: pointer;
+    color: white;
+}
+.books .container .btn .delete:hover
+{
+    background-color: rgb(249, 0, 0);
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+
+
