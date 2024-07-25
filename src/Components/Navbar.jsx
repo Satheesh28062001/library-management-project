@@ -19,7 +19,7 @@ const Navbar = () => {
    <>
    <div className="navbar">
     <div className="logo">
-        <img src={i1}  />
+        <img src={i1}  alt="something went wrong....!"/>
         
 
        
