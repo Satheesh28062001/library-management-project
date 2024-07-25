@@ -63,7 +63,7 @@ const Cart = () => {
                                         <td>{index+1}</td>
                                         <td>{cartid}</td>
                                         <td>{carttitle}</td>
-                                        <td><img src={cartimage} /></td>
+                                        <td><img src={cartimage} alt="Something went wrong...!"/></td>
                                         <td>{cartauthor}</td>
                                         <td ><button className='viewcart' onClick={()=>viewButton(cartid)} >View Cart</button></td>
                                         <td ><button className='removecart' onClick={()=>deleteCart(id,cartid.carttitle) } >Delete Card</button></td>
