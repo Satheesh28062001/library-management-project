@@ -15,7 +15,7 @@ const AdminLogin = () => {
         }
         let{email,password}=credential
         let err=`border:solid 2px red; background:rgba(255,0,0,0.5);`
-        if(emailVal.value==email && pswdVal.value==password)
+        if(emailVal.value===email && pswdVal.value===password)
             {
                 navigate('/adminportal')
             }
