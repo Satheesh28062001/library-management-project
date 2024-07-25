@@ -65,7 +65,7 @@ const Books = () => {
           <>
           <div className="container">
            <div className="img-side">
-            <img src={thumbnailUrl} />
+            <img src={thumbnailUrl} alt="something went wrong...!"/>
 
            </div>
            <div className="content-side">
